@@ -8,6 +8,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
 
+import { ContentService } from './shared/services/content.service';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +24,7 @@ import { PageComponent } from './page/page.component';
     MatCardModule, 
     MatToolbarModule
   ],
-  providers: [],
+  providers: [ContentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
