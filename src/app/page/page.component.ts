@@ -12,10 +12,10 @@ export class PageComponent implements OnInit {
   page: any;
 
   constructor(private route: ActivatedRoute,
-    private contentService: ContentService) { }
+              private contentService: ContentService) { }
 
   ngOnInit() {
-    const pageData = this.route.snapshot.data['page'];
+    const pageData = this.route.snapshot.data.page;
     this.page = this.contentService.pages[pageData];
   }
 }

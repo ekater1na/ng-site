@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core'
+import { NgModule } from '@angular/core';
 
 import { MatButtonModule, MatCardModule, MatToolbarModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -22,8 +22,8 @@ import { FullpageDirective } from './shared/directives/fullpage.directive';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule, 
-    MatCardModule, 
+    MatButtonModule,
+    MatCardModule,
     MatToolbarModule
   ],
   providers: [ContentService],
