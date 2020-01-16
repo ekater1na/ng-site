@@ -1,0 +1,13 @@
+img {
+    width: 100%;
+    height: calc(100% - 64px);
+    position: absolute;
+}
+
+.mat-card {
+    position: relative;
+    margin-top: 45vh;
+    width: 45vw;
+    background-color: rgb(255, 255, 255, 0.8);
+    
+}
